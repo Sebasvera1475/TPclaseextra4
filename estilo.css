@@ -1,0 +1,160 @@
+body {
+    background-image: linear-gradient(to bottom, #8e6bd1, #8978d8, #8484de, #828fe2,
+    #829ae5, #78a7ee, #6fb3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: #222;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+nav {
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.055);
+    color: #888;
+    float: left;
+    width: 20%;
+    /*
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    */
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+ 
+    nav ul li {
+        color: #333;
+        list-style-type: none;
+ 
+
+    }
+ 
+        nav > ul > li > a {
+            color: #333;
+            display: block;
+            line-height: 56px;
+            padding: 0 24px;
+            text-decoration: none;
+        }
+
+
+nav > ul > li:hover > a > .caret {
+  border-top-color: rgb( 255, 255, 255 );
+}
+
+#principal {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+    .css-button-shadow-border--black {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: #212529;
+      }
+      .css-button-shadow-border--black:hover {
+        background-color: #343a40;
+      }
+      .css-button-shadow-border--black:active {
+        top: 2px;
+      }
+
+      form {
+
+        background-color: #0c70e2;
+    
+        padding: 20px;
+    
+        border-radius: 10px;
+    
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+        max-width: 400px;
+    
+        width: 100%; 
+    
+        margin: 20px auto; 
+    
+    }
+    
+    
+    label {
+    
+        display: block;
+    
+        margin-bottom: 8px;
+    
+        color: #070707;
+    
+    }
+    
+    
+    
+    input, textarea {
+    
+        width: 90%;
+    
+        padding: 10px;
+    
+        margin-bottom: 15px;
+    
+        border: 1px solid #ccc;
+    
+        border-radius: 5px;
+    
+    }
+    
+    
+    
+    input[type="number"], input[type="text"], input[type="email"] {
+    
+        background-color: #f9f9f9;
+    
+    }
+    
+    
+    
+    button {
+    
+        width: 100%;
+    
+        padding: 10px;
+    
+        background-color: #5cb85c;
+    
+        border: none;
+    
+        color: white;
+    
+        border-radius: 5px;
+    
+        cursor: pointer;
+    
+        font-size: 16px;
+    
+    }
+    
+    
+    
+    button:hover {
+    
+        background-color: #4cae4c;
+    
+    }
